@@ -13,7 +13,7 @@ spring:
       settings.trace: false
       settings.web-allow-others: false
   application:
-    name: monitoring-demo
+    name: observability-basics
 
 management:
   endpoints:
