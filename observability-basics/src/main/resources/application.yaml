@@ -20,7 +20,8 @@ management:
     web:
       base-path: /actuator
       exposure:
-        include: [ "health","prometheus", "metrics" ]
+#        include: [ "health","prometheus", "metrics" ]
+        include: [ "*" ]
   endpoint:
     health:
       show-details: always
